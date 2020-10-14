@@ -4,11 +4,11 @@ using System.Text;
 
 namespace ConsoleAppContactManager.Models
 {
-    class EmailAdress
+    public class EmailAdress
     {
         public int Id { get; set; }
 
         public string EmailType { get; set; }
-        public string Email { get; set; }
+        public string EmailValue { get; set; }
     }
 }

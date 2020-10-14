@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleAppContactManager.Models;
+using System;
 
 namespace ConsoleAppContactManager
 {
@@ -6,7 +7,7 @@ namespace ConsoleAppContactManager
     {
         static void Main(string[] args)
         {
-            
+            PhoneNumber phoneNumber = new PhoneNumber("9348758734");
             
         }
     }
